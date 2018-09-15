@@ -42,6 +42,6 @@ public class MainApplication extends Application implements ReactApplication {
   public void onCreate() {
     super.onCreate();
     SoLoader.init(this, /* native exopackage */ false);
-    AcquireApp.init(this,"d5885");
+    AcquireApp.init(this,[enter your account id here]);
   }
 }
