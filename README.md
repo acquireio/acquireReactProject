@@ -39,6 +39,16 @@ allprojects {
     }
 }
 ```
+Same way if you want to use our co-browse only sdk you can do by adding the following dependency to your app's `build.gradle` file:  
+```groovy 
+implementation 'com.acquireio:cobrowse_only:1.+'
+implementation 'com.android.support:design:27.1.1'
+implementation 'com.android.support:appcompat-v7:28.0.0-rc01'
+implementation('io.socket:socket.io-client:1.0.0') {
+   exclude group: 'org.json', module: 'json'
+}
+```
+And project gradle remains same for both sdks.
 
 ## Setup and Configuration
 
