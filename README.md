@@ -6,6 +6,7 @@
 - Gradle 2.2.x
 - Android 7.1.1 SDK
 - Android device running Android 5.0 or newer (To get fully functioning sdk)
+- A React native project built using **Building Projects with Native Code** option from https://facebook.github.io/react-native/docs/getting-started.html 
 
 ## Installation Instructions:
 
