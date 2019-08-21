@@ -15,15 +15,17 @@
 Add the following dependency to your app's `build.gradle` file:
 ```groovy
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support:design:27.1.1'
-    implementation 'com.android.support:appcompat-v7:27.1.1'
-    implementation 'com.android.support:multidex:1.0.3'
-    implementation 'com.android.support:support-emoji-appcompat:27.1.1'
-    implementation('io.socket:socket.io-client:1.0.0') {
-        exclude group: 'org.json', module: 'json'
-    }
-    implementation 'com.acquireio:core:2.+'
+implementation 'com.android.support:appcompat-v7:27.1.0' // if not added already
+implementation 'com.android.support:design:27.1.0' // if not added already
+implementation 'com.android.support:support-emoji-appcompat:27.1.0' // if not added already
+implementation 'com.android.support:customtabs:27.1.0' // if want to give support for links
+implementation ('io.socket:socket.io-client:1.0.0') {
+   exclude group: 'org.json', module: 'json'
+}
+implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.+'
+implementation 'com.amitshekhar.android:android-networking:1.0.2'
+implementation 'com.acquireio:core:2.+'
+implementation 'com.squareup.picasso:picasso:2.71828'
 }
 ```
 
